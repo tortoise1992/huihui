@@ -34,6 +34,7 @@
 </script>
 
 <style scoped lang='less'>
+
   .top{
     height: 70px;
     background-color:rgba(0, 0, 0, 0.8);
@@ -61,6 +62,7 @@
           &:hover{
             .sub-nav{
               display: block;
+              // transform: translate3d(0,-30px,0);
             }
           }
           .sub-nav{
@@ -70,6 +72,8 @@
             display: none;
             background-color: #fff;
             padding: 10px 0;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+            transition: all 0.5s;
             a{
               display: block;
               width: 150px;
