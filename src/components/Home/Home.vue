@@ -20,6 +20,7 @@ export default {
 <style scoped lang="less">
 .banner{
   height: 600px;
-  // background:#333;
+  // background:url('./banner.jpg') no-repeat center center;
+  background-color: #eee;
 }
 </style>
