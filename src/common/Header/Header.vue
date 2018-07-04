@@ -11,8 +11,8 @@
         <a href="#">GITHUB</a>
       </div>
       <div class="info r">
-        <a href="#">登录</a>
-        <a href="#">注册</a>
+        <a href="#" class="btn btn-ghost">登录</a>
+        <a href="#" class="btn btn-ghost">注册</a>
       </div>
     </div>
 
@@ -50,12 +50,12 @@
             color: #333;
             background-color: #fff;
           }
-
         }
-
       }
       .info{
-
+        a{
+          color: #fff;
+        }
       }
     }
   }
